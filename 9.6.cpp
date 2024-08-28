@@ -11,11 +11,9 @@ bool isOdd(int number);
 int main() {
     int num;
 
-    // Input a number from the user
     cout << "Enter a number: ";
     cin >> num;
 
-    // Check and display whether the number is prime, even, or odd
     if (isPrime(num)) {
         cout << num << " is a prime number." << endl;
     } else {
@@ -39,13 +37,11 @@ bool isPrime(int number) {
     }
     return true;
 }
-
-// Function to check if a number is even
+ 
 bool isEven(int number) {
     return number % 2 == 0;
 }
-
-// Function to check if a number is odd
+ 
 bool isOdd(int number) {
     return number % 2 != 0;
 }
