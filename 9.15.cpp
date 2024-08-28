@@ -9,18 +9,15 @@ int calculateCube(int number);
 int main() {
     int num1, num2;
 
-    // Input two integers from the user
+    
     cout << "Enter the first integer: ";
     cin >> num1;
 
     cout << "Enter the second integer: ";
     cin >> num2;
-
-    // Call the functions to calculate square and cube
     int square = calculateSquare(num1);
     int cube = calculateCube(num2);
 
-    // Add the results and display the total
     int total = square + cube;
     cout << "The square of " << num1 << " is: " << square << endl;
     cout << "The cube of " << num2 << " is: " << cube << endl;
@@ -29,7 +26,6 @@ int main() {
     return 0;
 }
 
-// Function definitions
 int calculateSquare(int number) {
     return number * number;
 }
