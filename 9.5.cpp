@@ -8,11 +8,9 @@ unsigned long long factorial(int number);
 int main() {
     int num;
 
-    // Input a number from the user
     cout << "Enter a number: ";
     cin >> num;
 
-    // Ensure the number is non-negative
     if (num < 0) {
         cout << "Factorial is not defined for negative numbers." << endl;
     } else {
@@ -23,7 +21,6 @@ int main() {
     return 0;
 }
 
-// Function definition
 unsigned long long factorial(int number) {
     if (number == 0 || number == 1) {
         return 1;
