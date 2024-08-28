@@ -10,7 +10,7 @@ int main() {
     int numRows, numColumns;
     char ch;
 
-    // Input the number of rows, columns, and character from the user
+     
     cout << "Enter the number of rows: ";
     cin >> numRows;
 
@@ -20,7 +20,7 @@ int main() {
     cout << "Enter a character to display: ";
     cin >> ch;
 
-    // Validate input
+   
     if (numRows <= 0 || numColumns <= 0) {
         cout << "Number of rows and columns must be positive integers." << endl;
         return 1; // Exit with error code
