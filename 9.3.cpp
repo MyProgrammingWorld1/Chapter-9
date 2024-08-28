@@ -3,23 +3,19 @@
 #include <iostream>
 using namespace std;
 
-// Function declaration
 void displayTable(int number);
 
 int main() {
     int num;
 
-    // Input a number from the user
     cout << "Enter a number: ";
     cin >> num;
 
-    // Call the function to display the table of the number
     displayTable(num);
 
     return 0;
 }
 
-// Function definition
 void displayTable(int number) {
     cout << "Multiplication table for " << number << " is:\n";
     for (int i = 1; i <= 10; ++i) {
