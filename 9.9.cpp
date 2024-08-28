@@ -2,15 +2,13 @@
 
 #include <iostream>
 using namespace std;
-
-// Function declaration
+ 
 void performOperation(double num1, double num2, char op);
 
 int main() {
     double number1, number2;
     char operatorChar;
-
-    // Input two numbers and an arithmetic operator from the user
+ 
     cout << "Enter the first number: ";
     cin >> number1;
 
@@ -19,8 +17,7 @@ int main() {
 
     cout << "Enter an arithmetic operator (+, -, *, /): ";
     cin >> operatorChar;
-
-    // Call the function to perform the operation
+ 
     performOperation(number1, number2, operatorChar);
 
     return 0;
